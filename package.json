@@ -1,0 +1,27 @@
+{
+  "name": "eventhub",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.99.2",
+    "date-fns": "^3.3.1",
+    "lucide-react": "^0.321.0",
+    "qr-scanner": "^1.4.2",
+    "qrcode": "^1.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^7.13.1",
+    "react-router-dom": "^7.13.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "daisyui": "^5.5.19",
+    "vite": "^5.1.0"
+  }
+}
