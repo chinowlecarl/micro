@@ -124,21 +124,6 @@ export function Register() {
           </p>
         </div>
       </div>
-
-      <div style={{
-        width: '40%', background: 'var(--primary)',
-        display: 'flex', alignItems: 'center', justifyContent: 'center',
-        padding: 40, position: 'relative', overflow: 'hidden',
-      }}>
-        <div style={{ position: 'absolute', inset: 0, backgroundImage: 'radial-gradient(circle at 70% 50%, rgba(201,168,76,0.08) 0%, transparent 60%)' }} />
-        <div style={{ textAlign: 'center', position: 'relative', zIndex: 1 }}>
-          <div style={{ fontSize: 64, marginBottom: 24 }}>🎟️</div>
-          <h2 style={{ fontSize: 26, color: 'white', marginBottom: 16 }}>Your Campus<br/>Ticket Hub</h2>
-          <p style={{ color: 'rgba(255,255,255,0.6)', lineHeight: 1.7, maxWidth: 260 }}>
-            Get a QR-coded ticket instantly after registering for any event.
-          </p>
-        </div>
-      </div>
     </div>
   )
 }

@@ -83,22 +83,6 @@ export function Login() {
           </p>
         </div>
       </div>
-
-      {/* Right panel */}
-      <div style={{
-        width: '45%', background: 'var(--primary)',
-        display: 'flex', alignItems: 'center', justifyContent: 'center',
-        padding: 40, position: 'relative', overflow: 'hidden',
-      }}>
-        <div style={{ position: 'absolute', inset: 0, backgroundImage: 'radial-gradient(circle at 30% 50%, rgba(201,168,76,0.08) 0%, transparent 60%), radial-gradient(circle at 80% 20%, rgba(255,255,255,0.04) 0%, transparent 50%)' }} />
-        <div style={{ textAlign: 'center', position: 'relative', zIndex: 1 }}>
-          <div style={{ fontSize: 64, marginBottom: 24 }}>🎓</div>
-          <h2 style={{ fontSize: 28, color: 'white', marginBottom: 16 }}>Campus Events,<br/>Simplified</h2>
-          <p style={{ color: 'rgba(255,255,255,0.6)', lineHeight: 1.7, maxWidth: 280 }}>
-            Register for events, get your QR ticket, and check in seamlessly at the entrance.
-          </p>
-        </div>
-      </div>
     </div>
   )
 }
